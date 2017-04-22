@@ -1,0 +1,11 @@
+{{#section 'head'}}
+  <link rel="stylesheet" href="/css/books.css">
+{{/section}}
+
+<div class="title">
+  {{title}}
+</div>
+{{{page}}}
+<hr>
+<p class='pagenum'>~ page {{pid}} of {{pmax}} ~</p>
+<button type="button" class="btn-lg btn-primary" {{{attr 'onclick' next}}}>Next Page</a></button>

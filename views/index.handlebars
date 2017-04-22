@@ -1,0 +1,9 @@
+<h1 class="page-header">Darren Shan - Cirque du Freak</h2>
+<table>
+{{#each books}}
+  <tr>
+    <td>{{counter @index}}</td>
+    <td><a href="/books?book={{counter @index}}&page=1">{{title}}</a></td>
+  </tr>
+{{/each}}
+</table>

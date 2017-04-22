@@ -1,0 +1,33 @@
+html {
+  width: 100%;
+  height : 100%;
+
+}
+
+body {
+    margin:0;
+    background: -webkit-linear-gradient(#C5DCE3, #A7C7D1);
+    background-attachment: fixed;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 95%;
+}
+
+td {
+  padding: 15px;
+  font-size: 45px;
+}
+
+h1 {
+  font-size: 60px;
+  text-align:center;
+}
+
+table {
+  margin-top: 100px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
