@@ -96,7 +96,7 @@ app.use(function(req, res, next) {
 
 app.use('/', routes);
 app.use('/books', books);
-app.set('port', 80);
+app.set('port', process.env.PORT || 80);
 
 app.listen(app.get('port'), function() {
   console.log('Server started on port ' + app.get('port'));
